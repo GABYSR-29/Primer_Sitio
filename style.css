@@ -1,0 +1,48 @@
+body{
+   background-color: rgb(193, 238, 243);
+   /*Usando css gradient de internet
+   background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(187,131,235,1) 35%, rgba(131,209,235,1) 100%);*/
+font-family: "Sour Gummy", sans-serif;
+font-size: 18px;
+}
+
+/*Todas las imagenes tienen el mismo estilo
+img{
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+}
+*/
+
+/*Estilos diferentes de imagen*/
+/*El . se refiere a una clase*/
+.chUno{
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    opacity: 0.9;
+    /*border: double;*/
+    border:dashed;
+}
+.chDos{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    opacity: 0.8;
+    border: solid;
+}
+
+.masEsc{
+    h2{
+        text-align: center;
+    }
+    /*background-color: rgb(155, 222, 234);*/
+    background-image: url("https://i.pinimg.com/736x/a7/f5/a6/a7f5a67b568828bd484758628dca4e6e.jpg");
+    color: rgb(63, 146, 229);
+    font-size: 20px;
+}
+
+.imagenes{
+    text-align: center;
+}
